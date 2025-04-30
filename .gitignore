@@ -20,6 +20,7 @@ __pycache__/
 .Python
 env/
 venv/
+old/
 
 # IDEs and editors
 .idea/
@@ -37,3 +38,7 @@ build/
 *.csv
 *.pdf
 *.eml
+
+# Temporary files
+copilot-rules.md
+tasks.md

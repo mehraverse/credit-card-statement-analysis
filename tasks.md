@@ -25,13 +25,14 @@ I want to analyze spending habits using credit card statements and emails. This 
    - Standardize the format of transaction data from all sources.
    - Remove duplicates and ensure all fields (e.g., date, amount, merchant) are consistent.
 
-5. **Data Analysis**
+5. **Data Categorization** ✅
 
-   - Load the cleaned data into a data analysis tool (e.g., pandas in Python).
-   - Categorize transactions into spending categories (e.g., groceries, entertainment, utilities).
-   - Calculate monthly spending totals and averages for each category.
+   - Define a list of spending categories (e.g., groceries, entertainment, utilities, dining).
+   - Create a mapping of common merchant names or keywords to categories.
+   - Write a script to assign each transaction to a category based on the mapping.
+   - Allow manual overrides for transactions that cannot be automatically categorized.
 
-6. **Visualization**
+6. **Visualization** ✅
 
    - Use a visualization library (e.g., Matplotlib, Seaborn) to create charts:
      - Monthly spending trends.
